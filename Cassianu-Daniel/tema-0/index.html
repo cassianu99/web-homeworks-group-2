@@ -1,7 +1,64 @@
 <html>
     <head>
-        <title>
-            Tema 0
-        </title>
+        <title>Tema 0</title>
     </head>
+    <body>
+        <form>
+            <fieldset>
+                <legend>Contact details </legend>
+                <label>First name</label>
+                <input type="text" name="firstName" placeholder="Your first name" />
+
+                <label>Last Name</label>
+                <input type="text" name="lastName" placeholder="Your last name" />
+
+                <label>E-mail</label>
+                <input type="email"  name="e-mail"  placeholder="Your e-mail" />
+
+                <label>Phone</label>
+                <input type="tel" name="phone" placeholder="Your phone number" />
+
+            </fieldset>
+            <fieldset>
+                <legend>Choose a movie</legend>
+                <label>
+                    <input type="radio" value="Godzilla" name="choose a movie" /> Godzilla
+                </label>
+                <label>
+                    <input type="radio" value="Avengers" name="choose a movie" /> Avengers
+                </label>
+                <label>
+                    <input type="radio" value="Aladin" name="choose a movie" /> Aladin
+                </label>
+                <label>
+                    <input type="radio" value="Rocketman" name="choose a movie" /> Rocketman
+                </label>
+                <label>
+                    <input type="radio" value="Spider-man" name="choose a movie" /> Spider-man
+                </label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Choose location</legend>
+                <label>
+                    <select name="location">
+                        <option value="iulius">Cinema City - Iulius</option>
+                        <option value="vivo">Cinema City - Vivo</option>
+                    </select>
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Terms and conditions</legend>
+                <label>
+                    <input type="checkbox" name="agreeTerms" /> I agree the Terms & Conditions
+                </label>
+            </fieldset>
+
+            <label>
+                <input type="submit" name="buy tickets" /> Buy tickets.
+            </label>
+            
+        </form> 
+        
+    </body>
 </html>
