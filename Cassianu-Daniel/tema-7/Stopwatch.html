@@ -1,0 +1,75 @@
+<html>
+    <head>
+        <title>Stopwatch</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <script>
+        
+        </script>
+        <style>
+        .body {
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .container {
+            box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
+            padding: 15px;
+            border-radius; 5px;
+            background-color : red;
+            
+
+        }
+        .screen {
+            margin: 0 ;
+            background-color: royalblue;
+            color: sandybrown;
+            font-size: 64px;
+            border-radius: 5px;
+            padding: 10px;
+        }
+        .screen span {
+            display : inline-block
+            witdh : 85px;
+            text-align : center;
+        }
+        .buttons {
+            display: flex;
+            margin: 10px 5px 0;
+        }
+        .buttons button {
+            flex: 1;
+            margin: 0 5px;
+            border: none;
+            font-size: 20px;
+            padding: 5px;
+            border-radius: 5px;
+            box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
+            font-weight: bold;
+            color: blue;
+            background-color: yellow;
+        }
+        </style>
+        <div class="container">
+        </div>
+        <h1 class="screen">
+            <span id="minutes">
+                00
+            </span>
+            <span id="seconds">
+                    00
+                </span>
+                <span id="hundredths">
+                        00
+                    </span>
+        </h1>
+        <div class="buttons">
+                <button id="start">Start</button>
+                <button id="stop">Stop</button>
+                <button id="reset">Reset</button>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
