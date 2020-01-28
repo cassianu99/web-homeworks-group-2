@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>Basic challenge - Arrays</title>
+        <script>
+        var array = [-2, 10, 2, 4, -6, 3]
+        for (var i = 0; i <array.length; i++) {
+            console.log(array[i]);
+        }
+        var positiveNumbers = array.filter(number => {
+            return number > 0
+        })
+        console.log(positiveNumbers);
+
+        var sum = positiveNumbers.reduce((accumulator, positiveNumbers) => {
+            accumulator = accumulator + positiveNumbers;
+            return accumulator
+        })
+        console.log(sum)
+        </script>
+    </head>
+</html>
